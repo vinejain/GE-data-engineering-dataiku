@@ -63,7 +63,7 @@ http://18.224.5.133:11000/
 
 - nc-column: right skewed
 
-![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step 2.8-nc-column.jpg)
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step-2.8-nc-column.jpg)
 
 - Calculate departure & destination latitude/longitudes for each row in the consolidated flight table. Join on destination_icao and airport_icao. Rename the latitude/longitude columns from the airport lookup table to be destination_latitude and destination_longitude. Join on depart_icao and airport_icao and rename lats and longs.
 
