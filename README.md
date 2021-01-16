@@ -6,8 +6,6 @@
 
 ##### GE Aviation, and many other MNCs use the concept of a “Data Lake”.  A Data Lake is a single database instance that contains data from different sources, for example at GE Aviation everything from financial, delivery (of parts and engines), supplier, engine data, customer data, and so on will be present in their Data Lake. The advantage of using a Data Lake allows the developer to make a single connection string to the Data Lake, and as long as the developer has permissions to see the data – they are able to immediately start creating data-driven insights in a centralized repository of data. 
 
-#### Task: create a single data set that combines all the 8 tables into a single table. In this final form, we can then use this table to either create a prediction of RUL or visualize the data for easy user consumption. 
-
 #### Tools: We are provided with an instance using the Dataiku tool. To access the platform, open Dataiku in your internet browser using the link below.
 
 http://18.224.5.133:11000/
@@ -16,6 +14,8 @@ http://18.224.5.133:11000/
 
 ![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/recipe-till-inner-join-final-table.jpg)
 
+
+### Task is to create a single data set that combines all the 8 tables into a single table. In this final form, we can then use this table to either create a prediction of RUL or visualize the data for easy user consumption
 
 - Importing the 8 data tables:
 ```
