@@ -39,4 +39,24 @@
 - 	 av_engine_data_pgt_psql
 ```
 
+- In table **av_engine_data_aic** create a formula to overwrite the column t24 with the new value of (t24 + 459.67). The reason we are doing this to only one table, is because this airline stored their t24 column in Rankine, the other airlines kept their temps in a standard format. We are storing the resulting data in the EC2 “dataiku-access” connection.
+
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step-2.2-run.jpg)
+
+- nf column: slightly right skewed
+
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step-2.5-some-skewness-towards-right.jpg)
+
+- ps30-column: some skewness towards right
+
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step-2.6-ps30-column.jpg)
+
+- t30-column: almost a normal distribution
+
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/step-2.7-t30-column.jpg)
+
+
+
+
+
 
