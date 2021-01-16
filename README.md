@@ -12,7 +12,7 @@
 #### To access the Dataiku platform, open Dataiku in your internet browser using the link below.
 
 - Importing the 8 data tables:
-o	Flight Data Tables
+--	Flight Data Tables
 	av_engine_data_aic_psql
 	av_engine_data_axm_psql
 	av_engine_data_fron_psql
