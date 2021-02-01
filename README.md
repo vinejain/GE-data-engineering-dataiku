@@ -2,8 +2,6 @@
 
 #### Using data engineering to combine full-flight engine data, part manufacturing data, and airport location data to determine the distance travelled for each airplane and creating a run chart and KPI (key performance indicators) tables based off of the Aviation data.
 
-![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/certificate.jpg)
-
 ##### GE Aviation, and many other MNCs use the concept of a “Data Lake”.  A Data Lake is a single database instance that contains data from different sources, for example at GE Aviation everything from financial, delivery (of parts and engines), supplier, engine data, customer data, and so on will be present in their Data Lake. The advantage of using a Data Lake allows the developer to make a single connection string to the Data Lake, and as long as the developer has permissions to see the data – they are able to immediately start creating data-driven insights in a centralized repository of data. 
 
 #### Tools: We are provided with an instance using the Dataiku tool. To access the platform, open Dataiku in your internet browser using the link below.
@@ -95,3 +93,5 @@ if(t50<1410, t50,1410+2*(t50-1410))
 - Join the new KPI table to the consolidated flights table
 - Join final table with table from step 5 to get remaining useful life (RUL) for each engine. (RUL – shows the number of cycles remaining until an engine needs to be overhauled)
 
+
+![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/certificate.jpg)
