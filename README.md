@@ -94,4 +94,6 @@ if(t50<1410, t50,1410+2*(t50-1410))
 - Join final table with table from step 5 to get remaining useful life (RUL) for each engine. (RUL – shows the number of cycles remaining until an engine needs to be overhauled)
 
 
+### Internship Certificate:
+
 ![alt text](https://github.com/vinejain/GE-data-engineering-dataiku/blob/main/certificate.jpg)
